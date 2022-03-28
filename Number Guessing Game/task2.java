@@ -7,7 +7,7 @@ public class task2 {
 		int num = 1+(int)(Math.random()*100);   
 		int tot_trial = 10;
 		int my_trial = 1;
-		System.out.println("\n********Welcome To The Game - Guess The Number********\n");
+		System.out.println("\n******** Welcome To The Game - Guess The Number ********\n");
 		
 		while(my_trial <= tot_trial)       
 		{
@@ -19,7 +19,7 @@ public class task2 {
 			{
 				System.out.println("Congrats !!!");
 				System.out.println("The entered number matches with the random number");
-				System.out.println("\n********Thank You For Playing The Game********\n");
+				System.out.println("\n******** Thank You For Playing The Game ********\n");
 				break;      
 			}
 			else if(guess>num)   
