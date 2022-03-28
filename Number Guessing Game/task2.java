@@ -37,9 +37,9 @@ public class task2 {
 			System.out.println(str3);
 			if(my_trial==tot_trial)
 			{
-				  System.out.println("You have exhausted all trials.");
+			    System.out.println("You have exhausted all trials.");
 		          System.out.println("The number was " + num);
-		          System.out.println("Ohhhh You Lost the game \n Try Again");
+		          System.out.println("Sorry... You Lost the game \n Try Again");
 			}
 			my_trial = my_trial + 1;
 		}
